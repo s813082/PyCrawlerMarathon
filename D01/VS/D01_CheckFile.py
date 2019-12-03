@@ -9,6 +9,6 @@ for file in dirs:
     files.append(file)
 
 if 'Homework.txt' in files:
-    print("Yes")
+    print('[O] 檢查 Data 資料夾是否有 Homework.txt 檔名之檔案')
 else:
-    print("No")
+    print('[X] 檢查 Data 資料夾是否有 Homework.txt 檔名之檔案')
